@@ -5,4 +5,4 @@ let totalBeli = uang / hargaMie
 let totalBonus = totalBeli / 4
 let total = totalBeli + totalBonus
 
-console.log(total)
+console.log(`Total mie yang didapatkan si anak : ${total}`)
