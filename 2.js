@@ -1,6 +1,6 @@
 const userInput = 5;
 
-const p = [];
+const prima = [];
 for (let i = 1; i <= 100; i++) {
   let a = 0;
   for (let j = 1; j <= i; j++) {
@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i++) {
     }
   }
   if (a == 2) {
-    p.push(i);
+    prima.push(i);
   }
 }
 
@@ -17,7 +17,7 @@ if (userInput > 0 && userInput < 10) {
   for (let baris = 1; baris <= 5; baris++) {
     let print = "";
     for (let kolom = 0; kolom < baris; kolom++) {
-      print += p[kolom] + " ";
+      print += prima[kolom] + " ";
     }
     console.log(print);
   }
