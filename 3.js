@@ -17,4 +17,4 @@ function pohonImajinasi(x, y) {
     return pohonImajinasi(x, y-1)
 }
 
-console.log(pohonImajinasi(2, 5))
+console.log(pohonImajinasi(4, 3))
