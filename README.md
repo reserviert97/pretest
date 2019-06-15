@@ -4,5 +4,5 @@
 - Node Js
 
 ### Cara menggunakan
-masukan di terminal
+masukan di terminal  
 ``` node <namaFile> ```
