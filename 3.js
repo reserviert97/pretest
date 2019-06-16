@@ -1,4 +1,3 @@
-let musim = 'semi'
 let tinggiPohon = 1
 let totalTahun = 4
 

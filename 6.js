@@ -2,7 +2,7 @@ function convertDecimal(nomor){
     const hasil = []
     while(nomor >= 0){
         if (nomor == 0) {
-            return "hasilnya : "+ hasil.reverse()
+            return "output : "+hasil.reverse().join('')
         }
         if (nomor % 2 == 0) {
             hasil.push(0)
@@ -14,4 +14,4 @@ function convertDecimal(nomor){
     }
 }
 
-console.log(convertDecimal(72))
+console.log(convertDecimal(12))
